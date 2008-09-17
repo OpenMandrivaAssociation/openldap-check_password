@@ -2,7 +2,7 @@
 
 Name:       openldap-%{up_name}
 Version:    1.0.2
-Release:    %mkrel 1
+Release:    %mkrel 2
 Summary:    OpenLdap password checker module
 License:    Artistic
 Group: 		System/Servers
@@ -10,6 +10,7 @@ URL: 		http://open.calivia.com/projects/openldap
 Source0: 	%{up_name}-%{version}.tar.gz
 BuildRequires: openldap-devel
 BuildRequires: cracklib-devel
+BuildRequires: libwrap-devel
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description
