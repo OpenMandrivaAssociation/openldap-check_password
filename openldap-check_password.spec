@@ -1,6 +1,6 @@
 %define upstream_name check_password
 
-Name:       openldap-%{up_name}
+Name:       openldap-%{upsteam_name}
 Version:    1.0.3
 Release:    %mkrel 1
 Summary:    OpenLdap password checker module
