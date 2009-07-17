@@ -1,13 +1,13 @@
-%define up_name check_password
+%define upstream_name check_password
 
 Name:       openldap-%{up_name}
-Version:    1.0.2
-Release:    %mkrel 2
+Version:    1.0.3
+Release:    %mkrel 1
 Summary:    OpenLdap password checker module
 License:    Artistic
 Group: 		System/Servers
-URL: 		http://open.calivia.com/projects/openldap
-Source0: 	%{up_name}-%{version}.tar.gz
+URL: 		http://linagora.org/contrib/annuaires/extensions/openldap_ppolicy_check_password
+Source0: 	http://tools.ltb-project.org/attachments/download/29/%{upstream_name}-%{version}.tar.gz
 BuildRequires: openldap-devel
 BuildRequires: cracklib-devel
 BuildRequires: libwrap-devel
@@ -25,7 +25,7 @@ strength and quality requirements are met. Passwords that do not meet these
 requirements are rejected. 
 
 %prep
-%setup -q -n %{up_name}-%{version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 %make \
