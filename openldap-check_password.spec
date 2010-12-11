@@ -2,7 +2,7 @@
 
 Name:       openldap-%{upstream_name}
 Version:    1.0.3
-Release:    %mkrel 1
+Release:    %mkrel 2
 Summary:    OpenLdap password checker module
 License:    Artistic
 Group: 		System/Servers
