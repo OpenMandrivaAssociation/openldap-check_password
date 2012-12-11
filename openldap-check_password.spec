@@ -2,7 +2,7 @@
 
 Name:       openldap-%{upstream_name}
 Version:    1.0.3
-Release:    %mkrel 2
+Release:    %mkrel 1
 Summary:    OpenLdap password checker module
 License:    Artistic
 Group: 		System/Servers
@@ -45,3 +45,18 @@ rm -rf %{buildroot}
 %doc README INSTALL LICENSE
 %{_libdir}/openldap/*
 
+
+
+%changelog
+* Fri Jul 17 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.0.3-1mdv2010.0
++ Revision: 396867
+- new version, new URL
+- hard code libwrap-devel for backports (openldap package has been fixed in 2009.0 only)
+
+* Mon Sep 15 2008 Guillaume Rousse <guillomovitch@mandriva.org> 1.0.2-1mdv2009.0
++ Revision: 284946
+- import openldap-check_password
+
+
+* Mon Sep 15 2008 Guillaume Rousse <guillomovitch@mandriva.org> 1.0.2-1mdv2009.0
+- first mdv release
