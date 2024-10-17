@@ -6,7 +6,7 @@ Release:    2
 Summary:    OpenLdap password checker module
 License:    Artistic
 Group: 		System/Servers
-URL: 		http://linagora.org/contrib/annuaires/extensions/openldap_ppolicy_check_password
+URL: 		https://linagora.org/contrib/annuaires/extensions/openldap_ppolicy_check_password
 Source0: 	http://tools.ltb-project.org/attachments/download/29/%{upstream_name}-%{version}.tar.gz
 BuildRequires: openldap-devel
 BuildRequires: cracklib-devel
