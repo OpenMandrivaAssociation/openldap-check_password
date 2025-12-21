@@ -8,6 +8,7 @@ License:    Artistic
 Group: 		System/Servers
 URL: 		https://linagora.org/contrib/annuaires/extensions/openldap_ppolicy_check_password
 Source0: 	http://tools.ltb-project.org/attachments/download/29/%{upstream_name}-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires: openldap-devel
 BuildRequires: cracklib-devel
 BuildRequires: libwrap-devel
